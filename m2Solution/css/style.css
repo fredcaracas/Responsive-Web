@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: gray;
+}
+
+
+@media (min-width: 992px){
+    #s1{
+        float: left;
+        width: 30.33%;
+        
+    }
+    #s2{
+        float: left;
+        width: 30.33%;
+       
+    }
+    #s3{
+        float: left;
+        width: 30.33%;
+        
+    }
+ }
+ 
+@media (min-width: 768px) and (max-width: 991px){
+    #s1{
+        float: left;
+        width: 48%;
+    }
+    #s2{
+        float: left;
+        width: 48%;
+    }
+    #s3{
+        float: left;
+        width: 98%;
+    }
+}
+@media (max-width: 767px){
+    #s1{
+        float: left;
+        width: 100%;
+    }
+    #s2{
+        float: left;
+        width: 100%;
+    }
+    #s3{
+        float: left;
+        width: 100%;
+    }
+}
+#box{
+  padding: 5px; 
+  margin: 5px;
+}
+header{
+    
+    border-style: solid;  
+    text-align:right;
+    margin-left: 80%;
+}
+
+section{
+    border-style: solid;
+    margin: 1%;
+    
+}
+
+p{
+    margin: 1%;
+    font-size: 18px;
+}
+#tittle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#he1{
+    background-color: brown;
+}
+#he2{
+    background-color: rgb(101, 233, 189) ;
+}
+#he3{
+    background-color: gainsboro;
+}
+
+
+h1{
+    float: center;
+}
