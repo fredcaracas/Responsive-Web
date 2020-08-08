@@ -1,0 +1,47 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fca311;
+  
+}
+
+
+#header-nav {
+  background-color: #14213d;
+  border-radius: 0;
+  border: 0;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.navbar-brand h1 { 
+  
+  color: #e5e5e5;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 15px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#main-content{
+  background-color: #EB6534;
+  text-align: justify;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  
+}
+
+#nav-list{
+  background-color: #3058ad
+}
+
+#nav-list li a{
+  color: #e5e5e5
+}
+
